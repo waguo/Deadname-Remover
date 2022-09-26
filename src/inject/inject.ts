@@ -112,7 +112,18 @@ function replaceText(text: string, isTitle?: boolean) {
     while (getNextIndex(end)) {
         end = index + oldTextsLen[currentIndex];
         if (acceptableCharacters.indexOf(text[end]) === -1 && acceptableCharacters.indexOf(text[index - 1]) === -1) {
+            let isLowercase = true;
+            for (let k=0; k<deadName.length; k++) {
+                if (text.substring(index, index+deadName[0].first.length) != deadName[k].first.toLowerCase()) {
+                    isLowercase = false;
+                }
+            }
+            let dupeInd = newWords[currentIndex];
+            if (isLowercase == true) {
+                newWords[currentIndex] = newWords[currentIndex].toLowerCase();
+            }
             text = text.substring(0, index) + newWords[currentIndex] + text.substring(end);
+            newWords[currentIndex] = dupeInd;
         }
     }
     return text;

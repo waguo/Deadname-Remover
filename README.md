@@ -1,11 +1,7 @@
 ### Expect this README.md to change as the primary maintainer of this repo was updated. Huge thank you to [@WillHayCode](https://github.com/WillHayCode) for her idea, creation, and maintenance of this project (Mar 2018 - June 2022). Credit as well to [@Gusted](https://github.com/Gusted) for Gusted's continued contributions and maintenance.
 
 # Deadname Remover
-An easy to use browser plugin to automatically replace dead names with preferred names
-
-Visit [Chrome Web Store](https://chrome.google.com/webstore/detail/deadname-remover/cceilgmnkeijahkehfcgfalepihfbcag/) and [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/deadname-remover/) for more info
-
-If you somehow can't install the extension (due to disabling LGBT-related extension), but can install Greasemonkey/Tampermonkey: you can install it by clicking [here](https://github.com/WillHayCode/Deadname-Remover/raw/main/deadname-remover.user.js)
+A version of [@WillHayCode]'s Deadname Remover with added support for an all lowercase deadname to be converted into an all lowercase desired name for an improved texting experience. The desired name must be uppercase for the desired name to appear as uppercase in most scenarios.
 
 # Build Instructions
 
