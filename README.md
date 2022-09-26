@@ -1,7 +1,7 @@
 ### Expect this README.md to change as the primary maintainer of this repo was updated. Huge thank you to [@WillHayCode](https://github.com/WillHayCode) for her idea, creation, and maintenance of this project (Mar 2018 - June 2022). Credit as well to [@Gusted](https://github.com/Gusted) for Gusted's continued contributions and maintenance.
 
 # Deadname Remover
-A version of [@WillHayCode]'s Deadname Remover with added support for an all lowercase deadname to be converted into an all lowercase desired name for an improved texting experience. The desired name must be uppercase for the desired name to appear as uppercase in most scenarios.
+A version of [@WillHayCode](https://github.com/WillHayCode)'s Deadname Remover with added support for an all lowercase deadname to be converted into an all lowercase desired name for an improved texting experience. The desired name must be uppercase for the desired name to appear as uppercase in most scenarios.
 
 # Build Instructions
 
